@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Specify ECMAScript target version
+    "module": "ES6", // Use ES6 modules, suitable for most modern environments
+    "typeRoots": ["node_modules/@types"], // Specifies type definitions location
+    "moduleResolution": "node", // To resolve modules like Node.js
+    "jsx": "react-jsx", // Enables the new JSX transform (React 17+)
+    "strict": true, // Enables strict type-checking options
+    "esModuleInterop": true, // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true, // Skips type checks on declaration files to speed up builds
+    "forceConsistentCasingInFileNames": true // Prevents issues due to inconsistent casing
+  },
+  "include": ["src/**/*"], // Include all files in the `src` folder
+  "exclude": ["node_modules", "build"] // Exclude node_modules and build output
+}
